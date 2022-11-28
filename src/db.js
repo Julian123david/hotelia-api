@@ -7,6 +7,7 @@ const conexionDB = async () => {
         console.log("conexion satisfactoria", DB.connection.name);
     } catch (error) {
         console.log(error);
+        console.log(url);
     }
 }
 
