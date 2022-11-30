@@ -8,3 +8,12 @@ exports.obtener = async (req, res) => {
        res.status(500).json(error);
     }
 }
+
+exports.obtenerId = async (req, res) => {
+    try {
+        const habitaciones=await Habitacion.find();
+        res.status(200).json(habitacion);
+    } catch (error) {
+       res.status(500).json(error);
+    }
+}
