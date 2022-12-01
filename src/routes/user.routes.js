@@ -4,7 +4,7 @@ const ctrUser= require("../controller/users.controller");
 
 
 rutasUser.get('/' , ctrUser.obtener);
-rutasUser.get('/:id' , ctrUser.obtenerId);
+//rutasUser.get('/:id' , ctrUser.obtenerId);
 //rutasUser.post('/' , ctrUser.add);
 //rutasUser.put('/:id' , ctrUser.edit);
 module.exports = rutasUser;

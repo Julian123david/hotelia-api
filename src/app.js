@@ -13,7 +13,7 @@ conexionDB();
 
 //Configuraciones
 app.set("name", "api-hotelia");
-app.set("port", process.env.PORT || 3500);
+app.set("port", process.env.PORT || 3200);
 app.set("host", process.env.HOST || 'localhost');
 
 //Midleware
